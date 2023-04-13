@@ -1,48 +1,110 @@
 body {
-    background:linear-gradient(to right, white 30%, aqua 70%) 
+  background-color: grey;
 }
-@keyframes gradient-animation {
-    10% {
-      background-position: 10%;
-    }
-    50% {
-      background-position: 50%;
-    }
-  }
-body {
-  animation: gradient-animation 10s linear infinite;
-  background-size: 200% auto;
-  }
-nav {
+  .navbar {
+    border-radius: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px;
     font-family: arial;
     font-size: 20px;
   }
-  
-  nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 45px;
-  }
-  
-  nav a {
-    color: black;
+
+  .navbar a {
+    color:black;
+    margin: 0 15px;
     text-decoration: none;
   }
   .name {
-    padding:130px;
-    font-size:60px;
+    text-align: center;
+    font-size:100px;
     font-family: arial;
+    color:white;
+    margin-top:100px;
   }
   .namee {
-    margin-top:-180px;
-    margin-left: 150px;
+    text-align: center;
     font-family: arial;
+    margin-top:50px;
+    color:white;
+  }
+  .animated-text {
+    position: relative;
+    animation-name: slideInFromTop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      top: -50px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  .animated-textt {
+    position: relative;
+    animation-name: slideInFromTop;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      top: -50px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  .animated-texttt {
+    position: relative;
+    animation-name: slideInFromTop;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      top: -50px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  .gambar {
+    border-radius:80px;
+    width:90%;
+    margin-left:75px;
+    cursor: pointer;
+    margin-top:20px;
+    transition: transform 1.5s ease;
+  }
+  .gambar:hover {
+    transform: scale(1.02);
+  }
+  .nameee {
+    text-align:center;
+    color:azure;
+    margin-top:-50px;
+  }
+  .gambarr {
+    border-radius:80px;
+    width:90%;
+    margin-left:75px;
+    height: 400px;
+    cursor: pointer;
+    margin-top:50px;
+    transition: transform 1.5s ease;
+  }
+  .gambarr:hover {
+    transform: scale(1.02);
   }
