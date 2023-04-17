@@ -83,7 +83,7 @@ body {
   .gambar {
     border-radius:80px;
     width:90%;
-    margin-left:65px;
+    margin-left:55px;
     cursor: pointer;
     margin-top:20px;
     transition: transform 1.5s ease;
@@ -99,7 +99,7 @@ body {
   .gambarr {
     border-radius:80px;
     width:90%;
-    margin-left:65px;
+    margin-left:55px;
     height: 400px;
     cursor: pointer;
     margin-top:50px;
