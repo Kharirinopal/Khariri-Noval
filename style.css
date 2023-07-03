@@ -43,6 +43,19 @@ body {
   color: azure;
 }
 
+.nameee {
+  text-align: center;
+  color: azure;
+  margin-top: 30px;
+}
+
+.nameeee {
+  text-align: center;
+  font-family: arial;
+  margin-top: 50px;
+  color: azure;
+}
+
 .animated-text {
   position: relative;
   animation-name: slideInFromTop;
@@ -77,23 +90,29 @@ body {
   transform: scale(1.02);
 }
 
-.nameee {
-  text-align: center;
-  color: azure;
-  margin-top: -50px;
-}
-
 .gambarr {
   border-radius: 80px;
   width: 90%;
-  margin-left: 5%;
-  height: 800px;
+  margin-left: 2.5%;
   cursor: pointer;
   margin-top: 70px;
   transition: transform 1.5s ease;
 }
 
 .gambarr:hover {
+  transform: scale(1.02);
+}
+
+.gambarrr {
+  border-radius: 80px;
+  width: 90%;
+  margin-left: 2.5%;
+  cursor: pointer;
+  margin-top: 100px;
+  transition: transform 1.5s ease;
+}
+
+.gambarrr:hover {
   transform: scale(1.02);
 }
 
@@ -145,12 +164,22 @@ footer {
 /* Styling untuk ponsel, tablet, dan desktop */
 @media only screen and (max-width: 767px) {
   .name {
-    font-size: 60px;
-    margin-top: 50px;
+    font-size: 40px;
+    margin-top: 80px;
   }
 
   .namee {
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .nameee {
+    margin-top: 5px;
+  }
+  
+  .nameeee {
+    margin-top: 50px;
+    font-size: 40px;
   }
 
   .gambar {
@@ -160,9 +189,16 @@ footer {
 
   .gambarr {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 10px;
     height: auto;
     margin-top: 30px;
+  }
+  
+  .gambarrr {
+    width: 90%;
+    margin-left: 10px;
+    height: auto;
+    margin-top: 50px;
   }
 
   .footer-container {
@@ -176,13 +212,25 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    font-size: 30px;
+  }
   .name {
-    font-size: 80px;
+    font-size: 60px;
     margin-top: 100px;
   }
 
   .namee {
     margin-top: 50px;
+  }
+
+  .nameee {
+    margin-top: 5px;
+  }
+
+  .nameeee {
+    margin-top: 50px;
+    font-size: 40px;
   }
 
   .gambar {
@@ -192,7 +240,14 @@ footer {
 
   .gambarr {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  .gambarrr {
+    width: 80%;
+    margin-left: 5%;
     height: auto;
     margin-top: 50px;
   }
