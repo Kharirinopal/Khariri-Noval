@@ -78,7 +78,7 @@ body {
 }
 
 .gambar {
-  border-radius: 80px;
+  border-radius: 30px;
   width: 90%;
   margin-left: 5%;
   cursor: pointer;
@@ -91,7 +91,7 @@ body {
 }
 
 .gambarr {
-  border-radius: 80px;
+  border-radius: 30px;
   width: 90%;
   margin-left: 2.5%;
   cursor: pointer;
@@ -104,7 +104,7 @@ body {
 }
 
 .gambarrr {
-  border-radius: 80px;
+  border-radius: 30px;
   width: 90%;
   margin-left: 2.5%;
   cursor: pointer;
@@ -163,8 +163,11 @@ footer {
 
 /* Styling untuk ponsel, tablet, dan desktop */
 @media only screen and (max-width: 767px) {
+  .navbar {
+    font-size: 20px;
+  }
   .name {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 80px;
   }
 
@@ -184,20 +187,21 @@ footer {
 
   .gambar {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 5.3%;
+    height: 300px;
   }
 
   .gambarr {
     width: 90%;
-    margin-left: 10px;
-    height: auto;
+    margin-left: 2.3%;
+    height: 300px;
     margin-top: 30px;
   }
   
   .gambarrr {
     width: 90%;
-    margin-left: 10px;
-    height: auto;
+    margin-left: 2.3%;
+    height: 300px;
     margin-top: 50px;
   }
 
@@ -213,7 +217,7 @@ footer {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .navbar {
-    font-size: 30px;
+    font-size: 20px;
   }
   .name {
     font-size: 60px;
@@ -234,21 +238,22 @@ footer {
   }
 
   .gambar {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+    height: 320px;
   }
 
   .gambarr {
-    width: 80%;
-    margin-left: 5%;
-    height: auto;
+    width: 90%;
+    margin-left: 2.5%;
+    height: 320px;
     margin-top: 50px;
   }
   
   .gambarrr {
-    width: 80%;
-    margin-left: 5%;
-    height: auto;
+    width: 90%;
+    margin-left: 2.5%;
+    height: 320px;
     margin-top: 50px;
   }
 
